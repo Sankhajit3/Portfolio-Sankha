@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark {
+  --bg-color: #111827; /* Dark background */
+  --text-color: #ffffff; /* Light text color */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
