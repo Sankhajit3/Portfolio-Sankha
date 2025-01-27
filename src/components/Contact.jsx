@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
+import contact from "../../public/contact.webp"
 
 function Contact() {
   const {
@@ -41,7 +42,7 @@ function Contact() {
         {/* Left Column - Image */}
         <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-gray-100 dark:bg-gray-700 dark:border-gray-500">
           <img
-            src="../../public/contact.webp" // Replace with your image URL
+            src={contact}
             alt="Contact Illustration"
             className="rounded-lg shadow-lg w-full h-full object-cover"
           />
